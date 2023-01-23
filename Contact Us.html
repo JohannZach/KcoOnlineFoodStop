@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>KCO</title>
+<link rel = "icon" href = 
+  "KCO_logo.jpg"
+type = "image/x-icon">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="myfile.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+
+    li {
+      padding: 10px;
+    }
+
+   * {
+    scroll-behavior: smooth;
+   }
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+  .active{
+    background-color: #f2f2f2;
+  }
+
+  </style>
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="KCO project.html" style="margin-bottom: 10px; margin-top: -5px;"><img src="KCO_logo.jpg" alt="Logo" style="width: 50px;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav" style="font-size: 20px;">
+        <li><a href="KCO project.html">Home</a></li>
+        <li><a href="Testimonials.html" target="_self">Testimonials</a></li>
+        <li><a href="Gallery.html" target="_self">Gallery</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="menu.html">Foodies</a></li>
+            <li><a href="menu2.html">Cakes</a></li>
+            <li><a href="menu3.html">Sweets</a></li>
+            <li><a href="Daily Menu.html">Daily Menu</a></li>
+          </ul>
+        </li>
+        <li><a href="https://www.facebook.com/KCOfoodproducts" style="color: black; background-color: whitesmoke;">Order Now</a></li>        
+      </ul>
+      <ul class="nav navbar-nav navbar-right" style="font-size: 20px;">
+        <li><a href="KCO project.html#About Us">About Us</a></li>
+        <li><a href="Contact Us.html" target="_self">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br>
+<div class="container">
+    <form action="mailto:mavislangris@gmail.com"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailForm">
+         <fieldset>
+         
+         <legend>Contact Us</legend>
+         <br>
+         <label for="fname">Name</label>
+            <input type="text" id="fname" name="Name" placeholder="Your name..">
+            <br>
+            <label for="lname">Email</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your email..">
+                <br>
+              <label for="subject">Suggestions / Comments</label>
+              <br>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <br>
+              <input type="submit" value="Submit">
+              <input type=reset value=reset>
+            <br>
+        </fieldset>
+    </form>
+</div>
+<br>
+<br>
+
+
+<div class="container text-center">    
+    <div class="row content">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.56556972913958!2d120.46012787504284!3d16.92286928302667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391e748a23f31c1%3A0x93a4341a575dda62!2sKCO%20Online%20Store%20-%20FOOD%20STOP!5e0!3m2!1sen!2sph!4v1674400547227!5m2!1sen!2sph" width="500" height="500" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+
+    </div>
+  </div>
+  <br>
+
+  <footer class="container-fluid text-center grad1" >
+    <div id="borderimg1">
+      <h2>Contact Information</h2>
+          
+      <p style=><i class="fa fa-map-marker" aria-hidden="true"></i> #192 National Highway, Brgy Cabaroan, Tagudin, Ilocos Sur</p>
+      <p style=><i class="fa fa-envelope-o" aria-hidden="true"></i> Email: KcoOnline@gmail.com</p>
+      <p style=><i class="fa fa-phone" aria-hidden="true"></i> Contact Number: 0930 359 9770</p>
+      <p style=>@Copyright 2023</p>
+  
+      <br>
+      <br>
+  
+      <p >Web Developers: Kenneth James V. Peralta<br>
+              and Johann Zach Lagarde</p>
+    </div>          
+  </footer>
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
+</html>
