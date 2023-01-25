@@ -254,3 +254,13 @@ input[type=text]:focus, input[type=password]:focus {
   #myBtn:hover {
     background-color: #555;
   }
+
+
+ .autoMarge{
+      margin:auto;
+    }
+
+    a.space{
+      margin-left: 10px;
+      color: #222222;
+    }
